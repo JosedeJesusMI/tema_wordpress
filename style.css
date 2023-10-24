@@ -7,6 +7,16 @@ Description: Este es un tema diseñado para mi sitio web de ML. NET.
 Version: 0.0.1
 Tags: CCTV, Alarmas, Cableado Estructurado, Cerraduras Inteligentes.
 */
+.letrab{
+	background-color: #f9f9f9;
+}
+
+.ala {
+	padding: .25rem;
+	border-radius: .25rem;
+	background-color: #CCC;
+}
+
 .Cul {
 	list-style-type: none;
 	margin: 0;
@@ -32,11 +42,7 @@ Tags: CCTV, Alarmas, Cableado Estructurado, Cerraduras Inteligentes.
 }
 
 
-
-
-
-html,
-body {
+html, body {
 	box-sizing: border-box;
 	font-family: sans-serif;
 	font-size: 16px;
@@ -44,12 +50,32 @@ body {
 	background-color: #222;
 }
 
-*,
-*:after,
-*:before {
+*, *:after, *:before {
 	box-sizing: inherit;
 	margin: 0;
 	padding: 0;
+}
+
+hr {
+	width: 20%;
+	margin: 2rem auto;
+	border: medium dashed #222;
+}
+
+hr:last-child { display: none; }
+
+p {
+	padding: 1rem;
+}
+
+
+
+.post-categories {
+	margin: 1rem;
+	padding: 1rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background-color: #AAA;
 }
 
 .container {
@@ -74,10 +100,30 @@ body {
 	vertical-align: top;
 }
 
-.w-30 {
-	width: 30%;
+.w-30 { width: 30%; }
+
+.w-70 { width: 70%; }
+
+.error {
+	padding: 1rem;
+	font-size: 2rem;
+	text-align: center;
+	color: red;
+	background-color: yellow;
 }
 
-.w-70 {
-	width: 70%;
+.post {
+	padding: 1rem;
+	background-color: #444;
+}
+
+.the-content {
+	margin: 1rem auto;
+	padding: 1rem;
+	background-color: #666;
+}
+
+.title-template{
+	font-size: 1.5rem;
+	color: rgb(198, 17, 17);
 }

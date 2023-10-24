@@ -23,5 +23,5 @@
 
 		</ul>
 
-	</header><center><img src="" alt="" ></center>
+	</header>
 	<section class="container">
